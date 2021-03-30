@@ -1659,3 +1659,24 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		/* profile/circletag */
+		div.circletag {
+			display: block;
+			width: 140px;
+			height: 140px;
+			background: #E6E7ED;
+			text-align: center;
+			align-content: center;
+			align-items: center;
+			border-radius: 50%;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+		}
+		div.circletag>img {
+		   max-height: 100%;
+		   max-width: 100%;
+		   border-radius: 50%;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+		}
